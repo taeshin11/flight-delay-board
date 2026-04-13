@@ -1,0 +1,13 @@
+{
+  "nav": { "home": "Inicio", "airports": "Aeropuertos", "routes": "Rutas", "airlines": "Aerolíneas", "bestTime": "Mejor Hora para Volar", "search": "Buscar" },
+  "hero": { "title": "Retrasos en Aeropuertos Hoy", "subtitle": "Estado en tiempo real de puntualidad y retrasos en aeropuertos de EE.UU.", "lastUpdated": "Última actualización" },
+  "status": { "noDelay": "A tiempo", "moderate": "Retrasos menores", "severe": "Retrasos importantes", "groundStop": "Parada en tierra", "unknown": "Desconocido", "onTime": "A tiempo" },
+  "airport": { "onTimeRate": "Tasa de puntualidad", "avgDelay": "Retraso promedio", "cancelRate": "Tasa de cancelación", "bestTimeToFly": "Mejor hora para volar", "topRoutes": "Principales rutas", "delayByHour": "Retraso por hora", "bestDay": "Mejor día", "worstDay": "Peor día", "bestHour": "Mejor hora", "worstHour": "Peor hora", "airlines": "Aerolíneas", "terminals": "Terminales", "viewDetails": "Ver detalles" },
+  "route": { "onTimeRate": "Tasa de puntualidad", "airlineComparison": "Comparación de aerolíneas", "bestDeparture": "Mejor hora de salida", "seasonal": "Patrones estacionales" },
+  "airline": { "overallOTP": "Puntualidad general", "delayCauses": "Causas de retraso", "mostDelayed": "Rutas más retrasadas", "mostOnTime": "Rutas más puntuales", "avgDelay": "Retraso promedio", "cancelRate": "Tasa de cancelación", "hubs": "Aeropuertos hub" },
+  "heatmap": { "hour": "Hora", "day": "Día", "avgDelay": "Retraso promedio", "bestTime": "Mejor hora", "minutes": "min" },
+  "footer": { "todayVisits": "Hoy", "totalVisits": "Total", "copyright": "© 2024 FlightDelayBoard. Datos de la base de datos BTS de puntualidad.", "visitors": "Visitantes" },
+  "common": { "loading": "Cargando...", "noData": "Sin datos", "liveData": "Datos en vivo", "cachedData": "Datos en caché", "minutes": "min", "rank": "Rango", "airport": "Aeropuerto", "city": "Ciudad", "state": "Estado", "sortBy": "Ordenar por", "filter": "Filtrar", "all": "Todos", "bestTimes": "Mejores horas", "performance": "Rendimiento" },
+  "homepage": { "topAirports": "Aeropuertos con mejor puntualidad", "delayIndex": "Índice de retraso actual", "viewAll": "Ver todos los aeropuertos", "compareAirlines": "Comparar aerolíneas", "bestTimeGuide": "Guía de mejor hora para volar", "green": "Puntual (>85%)", "yellow": "Regular (75-85%)", "red": "Deficiente (<75%)" },
+  "bestTime": { "title": "Mejor hora para volar", "subtitle": "Encuentra el mejor día y hora para minimizar retrasos", "byDay": "Por día de semana", "byHour": "Por hora del día", "byMonth": "Por mes", "tip": "Volar martes o miércoles por la mañana suele tener menos retrasos" }
+}

@@ -1,0 +1,17 @@
+[
+  {"slug":"delta","name":"Delta Air Lines","code":"DL","onTimeRate":85.2,"avgDelayMin":15,"cancelRate":1.3,"hubs":["ATL","DTW","MSP","SLC","SEA","JFK","LAX","BOS"]},
+  {"slug":"united","name":"United Airlines","code":"UA","onTimeRate":81.6,"avgDelayMin":19,"cancelRate":1.7,"hubs":["ORD","DEN","IAH","EWR","IAD","SFO","LAX"]},
+  {"slug":"american","name":"American Airlines","code":"AA","onTimeRate":79.8,"avgDelayMin":21,"cancelRate":1.9,"hubs":["DFW","CLT","PHL","MIA","LAX","JFK","BOS","ORD"]},
+  {"slug":"southwest","name":"Southwest Airlines","code":"WN","onTimeRate":82.4,"avgDelayMin":17,"cancelRate":1.5,"hubs":["DAL","MDW","BWI","LAS","HOU","PHX","ATL"]},
+  {"slug":"alaska","name":"Alaska Airlines","code":"AS","onTimeRate":84.7,"avgDelayMin":15,"cancelRate":1.2,"hubs":["SEA","PDX","SFO","LAX","SAN","ANC"]},
+  {"slug":"jetblue","name":"JetBlue Airways","code":"B6","onTimeRate":76.3,"avgDelayMin":26,"cancelRate":1.6,"hubs":["JFK","BOS","FLL","LAX","LGB","MCO"]},
+  {"slug":"spirit","name":"Spirit Airlines","code":"NK","onTimeRate":72.1,"avgDelayMin":31,"cancelRate":2.4,"hubs":["FLL","LAS","MCO","ORD","DFW","ATL"]},
+  {"slug":"frontier","name":"Frontier Airlines","code":"F9","onTimeRate":73.8,"avgDelayMin":29,"cancelRate":2.1,"hubs":["DEN","MCO","ATL","PHX","ORD","LAS"]},
+  {"slug":"allegiant","name":"Allegiant Air","code":"G4","onTimeRate":77.5,"avgDelayMin":25,"cancelRate":2.0,"hubs":["LAS","SFB","PIE","AZA","BLI"]},
+  {"slug":"hawaiian","name":"Hawaiian Airlines","code":"HA","onTimeRate":88.4,"avgDelayMin":11,"cancelRate":0.8,"hubs":["HNL","OGG","KOA","LIH","ITO"]},
+  {"slug":"sun-country","name":"Sun Country Airlines","code":"SY","onTimeRate":83.2,"avgDelayMin":17,"cancelRate":1.4,"hubs":["MSP"]},
+  {"slug":"avelo","name":"Avelo Airlines","code":"XP","onTimeRate":80.1,"avgDelayMin":21,"cancelRate":1.6,"hubs":["BUR","HVN","TPA"]},
+  {"slug":"breeze","name":"Breeze Airways","code":"MX","onTimeRate":78.6,"avgDelayMin":23,"cancelRate":1.8,"hubs":["SLC","TPA","RIC","HTS"]},
+  {"slug":"cape-air","name":"Cape Air","code":"9K","onTimeRate":76.4,"avgDelayMin":24,"cancelRate":2.3,"hubs":["BOS","HYA","ACK","MVY","ORH"]},
+  {"slug":"silver-airways","name":"Silver Airways","code":"3M","onTimeRate":74.9,"avgDelayMin":27,"cancelRate":2.2,"hubs":["FLL","PBI","TPA","MCO","BHM"]}
+]

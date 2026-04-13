@@ -1,0 +1,13 @@
+{
+  "nav": { "home": "Accueil", "airports": "Aéroports", "routes": "Itinéraires", "airlines": "Compagnies", "bestTime": "Meilleur moment", "search": "Rechercher" },
+  "hero": { "title": "Retards d'aéroports aujourd'hui", "subtitle": "État en temps réel de la ponctualité et des retards dans les aéroports américains", "lastUpdated": "Dernière mise à jour" },
+  "status": { "noDelay": "À l'heure", "moderate": "Retards mineurs", "severe": "Retards importants", "groundStop": "Arrêt au sol", "unknown": "Inconnu", "onTime": "À l'heure" },
+  "airport": { "onTimeRate": "Taux de ponctualité", "avgDelay": "Retard moyen", "cancelRate": "Taux d'annulation", "bestTimeToFly": "Meilleur moment pour voler", "topRoutes": "Principales routes", "delayByHour": "Retard par heure", "bestDay": "Meilleur jour", "worstDay": "Pire jour", "bestHour": "Meilleure heure", "worstHour": "Pire heure", "airlines": "Compagnies", "terminals": "Terminaux", "viewDetails": "Voir les détails" },
+  "route": { "onTimeRate": "Taux de ponctualité", "airlineComparison": "Comparaison des compagnies", "bestDeparture": "Meilleure heure de départ", "seasonal": "Tendances saisonnières" },
+  "airline": { "overallOTP": "Ponctualité globale", "delayCauses": "Causes des retards", "mostDelayed": "Routes les plus retardées", "mostOnTime": "Routes les plus ponctuelles", "avgDelay": "Retard moyen", "cancelRate": "Taux d'annulation", "hubs": "Aéroports hub" },
+  "heatmap": { "hour": "Heure", "day": "Jour", "avgDelay": "Retard moyen", "bestTime": "Meilleur moment", "minutes": "min" },
+  "footer": { "todayVisits": "Aujourd'hui", "totalVisits": "Total", "copyright": "© 2024 FlightDelayBoard. Données de la base BTS de ponctualité.", "visitors": "Visiteurs" },
+  "common": { "loading": "Chargement...", "noData": "Aucune donnée", "liveData": "Données en direct", "cachedData": "Données en cache", "minutes": "min", "rank": "Rang", "airport": "Aéroport", "city": "Ville", "state": "État", "sortBy": "Trier par", "filter": "Filtrer", "all": "Tous", "bestTimes": "Meilleurs moments", "performance": "Performance" },
+  "homepage": { "topAirports": "Aéroports les plus ponctuels", "delayIndex": "Indice de retard actuel", "viewAll": "Voir tous les aéroports", "compareAirlines": "Comparer les compagnies", "bestTimeGuide": "Guide du meilleur moment", "green": "Ponctuel (>85%)", "yellow": "Moyen (75-85%)", "red": "Mauvais (<75%)" },
+  "bestTime": { "title": "Meilleur moment pour voler", "subtitle": "Trouvez le meilleur jour et heure pour minimiser les retards", "byDay": "Par jour de la semaine", "byHour": "Par heure de la journée", "byMonth": "Par mois", "tip": "Voler le mardi ou mercredi matin génère généralement le moins de retards" }
+}

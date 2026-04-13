@@ -1,0 +1,13 @@
+{
+  "nav": { "home": "ホーム", "airports": "空港", "routes": "路線", "airlines": "航空会社", "bestTime": "最適フライト時間", "search": "検索" },
+  "hero": { "title": "本日の空港遅延状況", "subtitle": "米国主要空港のリアルタイム定時運行・遅延状況", "lastUpdated": "最終更新" },
+  "status": { "noDelay": "定時", "moderate": "軽微な遅延", "severe": "大幅な遅延", "groundStop": "地上停止", "unknown": "不明", "onTime": "定時" },
+  "airport": { "onTimeRate": "定時率", "avgDelay": "平均遅延", "cancelRate": "欠航率", "bestTimeToFly": "最適フライト時間", "topRoutes": "主要路線", "delayByHour": "時間帯別遅延", "bestDay": "最適曜日", "worstDay": "最悪曜日", "bestHour": "最適時刻", "worstHour": "最悪時刻", "airlines": "航空会社", "terminals": "ターミナル", "viewDetails": "詳細を見る" },
+  "route": { "onTimeRate": "定時率", "airlineComparison": "航空会社比較", "bestDeparture": "最適出発時間", "seasonal": "季節パターン" },
+  "airline": { "overallOTP": "総合定時率", "delayCauses": "遅延原因", "mostDelayed": "最も遅延の多い路線", "mostOnTime": "最も定時率の高い路線", "avgDelay": "平均遅延", "cancelRate": "欠航率", "hubs": "ハブ空港" },
+  "heatmap": { "hour": "時間", "day": "曜日", "avgDelay": "平均遅延", "bestTime": "最適時間", "minutes": "分" },
+  "footer": { "todayVisits": "今日", "totalVisits": "合計", "copyright": "© 2024 FlightDelayBoard. BTSオンタイムパフォーマンスデータベース提供。", "visitors": "訪問者" },
+  "common": { "loading": "読み込み中...", "noData": "データなし", "liveData": "ライブデータ", "cachedData": "キャッシュデータ", "minutes": "分", "rank": "順位", "airport": "空港", "city": "都市", "state": "州", "sortBy": "並べ替え", "filter": "フィルター", "all": "すべて", "bestTimes": "最適時間", "performance": "実績" },
+  "homepage": { "topAirports": "定時率上位空港", "delayIndex": "現在の遅延指数", "viewAll": "すべての空港を見る", "compareAirlines": "航空会社を比較", "bestTimeGuide": "最適フライト時間ガイド", "green": "定時 (>85%)", "yellow": "普通 (75-85%)", "red": "不良 (<75%)" },
+  "bestTime": { "title": "最適フライト時間", "subtitle": "遅延を最小限に抑える最適な日時を見つけましょう", "byDay": "曜日別", "byHour": "時間帯別", "byMonth": "月別", "tip": "火曜日か水曜日の朝のフライトが最も遅延が少ない傾向があります" }
+}

@@ -1,0 +1,100 @@
+{
+  "nav": {
+    "home": "홈",
+    "airports": "공항",
+    "routes": "노선",
+    "airlines": "항공사",
+    "bestTime": "최적 비행 시간",
+    "search": "검색"
+  },
+  "hero": {
+    "title": "오늘의 공항 지연 현황",
+    "subtitle": "미국 주요 공항의 실시간 정시 운항 및 지연 현황",
+    "lastUpdated": "최종 업데이트"
+  },
+  "status": {
+    "noDelay": "정시",
+    "moderate": "소폭 지연",
+    "severe": "대폭 지연",
+    "groundStop": "지상 대기",
+    "unknown": "알 수 없음",
+    "onTime": "정시"
+  },
+  "airport": {
+    "onTimeRate": "정시율",
+    "avgDelay": "평균 지연",
+    "cancelRate": "취소율",
+    "bestTimeToFly": "최적 비행 시간",
+    "topRoutes": "주요 노선",
+    "delayByHour": "시간대별 지연",
+    "bestDay": "최적 요일",
+    "worstDay": "최악 요일",
+    "bestHour": "최적 시간",
+    "worstHour": "최악 시간",
+    "airlines": "항공사",
+    "terminals": "터미널",
+    "viewDetails": "자세히 보기"
+  },
+  "route": {
+    "onTimeRate": "정시율",
+    "airlineComparison": "항공사 비교",
+    "bestDeparture": "최적 출발 시간",
+    "seasonal": "계절별 패턴"
+  },
+  "airline": {
+    "overallOTP": "전체 정시율",
+    "delayCauses": "지연 원인",
+    "mostDelayed": "가장 지연이 많은 노선",
+    "mostOnTime": "가장 정시인 노선",
+    "avgDelay": "평균 지연",
+    "cancelRate": "취소율",
+    "hubs": "허브 공항"
+  },
+  "heatmap": {
+    "hour": "시간",
+    "day": "요일",
+    "avgDelay": "평균 지연",
+    "bestTime": "최적 시간",
+    "minutes": "분"
+  },
+  "footer": {
+    "todayVisits": "오늘",
+    "totalVisits": "전체",
+    "copyright": "© 2024 FlightDelayBoard. BTS 정시 운항 데이터베이스 제공.",
+    "visitors": "방문자"
+  },
+  "common": {
+    "loading": "로딩 중...",
+    "noData": "데이터 없음",
+    "liveData": "실시간 데이터",
+    "cachedData": "캐시 데이터",
+    "minutes": "분",
+    "rank": "순위",
+    "airport": "공항",
+    "city": "도시",
+    "state": "주",
+    "sortBy": "정렬 기준",
+    "filter": "필터",
+    "all": "전체",
+    "bestTimes": "최적 시간",
+    "performance": "실적"
+  },
+  "homepage": {
+    "topAirports": "정시율 상위 공항",
+    "delayIndex": "현재 지연 지수",
+    "viewAll": "모든 공항 보기",
+    "compareAirlines": "항공사 비교",
+    "bestTimeGuide": "최적 비행 시간 가이드",
+    "green": "정시 (>85%)",
+    "yellow": "보통 (75-85%)",
+    "red": "나쁨 (<75%)"
+  },
+  "bestTime": {
+    "title": "최적 비행 시간",
+    "subtitle": "지연을 최소화하는 최적의 날과 시간을 찾아보세요",
+    "byDay": "요일별",
+    "byHour": "시간대별",
+    "byMonth": "월별",
+    "tip": "화요일 또는 수요일 아침 비행이 일반적으로 지연이 가장 적습니다"
+  }
+}

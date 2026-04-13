@@ -1,0 +1,100 @@
+{
+  "nav": {
+    "home": "Home",
+    "airports": "Airports",
+    "routes": "Routes",
+    "airlines": "Airlines",
+    "bestTime": "Best Time to Fly",
+    "search": "Search"
+  },
+  "hero": {
+    "title": "Airport Delays Today",
+    "subtitle": "Live on-time performance & delay status for all major US airports",
+    "lastUpdated": "Last updated"
+  },
+  "status": {
+    "noDelay": "On Time",
+    "moderate": "Minor Delays",
+    "severe": "Major Delays",
+    "groundStop": "Ground Stop",
+    "unknown": "Unknown",
+    "onTime": "On Time"
+  },
+  "airport": {
+    "onTimeRate": "On-Time Rate",
+    "avgDelay": "Avg. Delay",
+    "cancelRate": "Cancel Rate",
+    "bestTimeToFly": "Best Time to Fly",
+    "topRoutes": "Top Routes",
+    "delayByHour": "Delay by Hour",
+    "bestDay": "Best Day",
+    "worstDay": "Worst Day",
+    "bestHour": "Best Hour",
+    "worstHour": "Worst Hour",
+    "airlines": "Airlines",
+    "terminals": "Terminals",
+    "viewDetails": "View Details"
+  },
+  "route": {
+    "onTimeRate": "On-Time Rate",
+    "airlineComparison": "Airline Comparison",
+    "bestDeparture": "Best Departure Time",
+    "seasonal": "Seasonal Patterns"
+  },
+  "airline": {
+    "overallOTP": "Overall On-Time Rate",
+    "delayCauses": "Delay Causes",
+    "mostDelayed": "Most Delayed Routes",
+    "mostOnTime": "Most On-Time Routes",
+    "avgDelay": "Avg. Delay",
+    "cancelRate": "Cancel Rate",
+    "hubs": "Hub Airports"
+  },
+  "heatmap": {
+    "hour": "Hour",
+    "day": "Day",
+    "avgDelay": "Avg. Delay",
+    "bestTime": "Best Time",
+    "minutes": "min"
+  },
+  "footer": {
+    "todayVisits": "Today",
+    "totalVisits": "Total",
+    "copyright": "© 2024 FlightDelayBoard. Data from BTS On-Time Performance database.",
+    "visitors": "Visitors"
+  },
+  "common": {
+    "loading": "Loading...",
+    "noData": "No data available",
+    "liveData": "Live Data",
+    "cachedData": "Cached Data",
+    "minutes": "min",
+    "rank": "Rank",
+    "airport": "Airport",
+    "city": "City",
+    "state": "State",
+    "sortBy": "Sort by",
+    "filter": "Filter",
+    "all": "All",
+    "bestTimes": "Best Times",
+    "performance": "Performance"
+  },
+  "homepage": {
+    "topAirports": "Top Airports by On-Time Rate",
+    "delayIndex": "Current Delay Index",
+    "viewAll": "View All Airports",
+    "compareAirlines": "Compare Airlines",
+    "bestTimeGuide": "Best Time to Fly Guide",
+    "green": "On-Time (>85%)",
+    "yellow": "Fair (75-85%)",
+    "red": "Poor (<75%)"
+  },
+  "bestTime": {
+    "title": "Best Time to Fly",
+    "subtitle": "Find the best day and hour to minimize delays",
+    "byDay": "By Day of Week",
+    "byHour": "By Hour of Day",
+    "byMonth": "By Month",
+    "tip": "Flying on Tuesday or Wednesday mornings typically sees the fewest delays"
+  }
+}

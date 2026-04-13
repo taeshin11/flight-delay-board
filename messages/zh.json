@@ -1,0 +1,13 @@
+{
+  "nav": { "home": "首页", "airports": "机场", "routes": "航线", "airlines": "航空公司", "bestTime": "最佳飞行时间", "search": "搜索" },
+  "hero": { "title": "今日机场延误情况", "subtitle": "美国主要机场实时准点率和延误状态", "lastUpdated": "最后更新" },
+  "status": { "noDelay": "准点", "moderate": "轻微延误", "severe": "严重延误", "groundStop": "地面停飞", "unknown": "未知", "onTime": "准点" },
+  "airport": { "onTimeRate": "准点率", "avgDelay": "平均延误", "cancelRate": "取消率", "bestTimeToFly": "最佳飞行时间", "topRoutes": "主要航线", "delayByHour": "按小时延误", "bestDay": "最佳日期", "worstDay": "最差日期", "bestHour": "最佳时段", "worstHour": "最差时段", "airlines": "航空公司", "terminals": "航站楼", "viewDetails": "查看详情" },
+  "route": { "onTimeRate": "准点率", "airlineComparison": "航空公司对比", "bestDeparture": "最佳出发时间", "seasonal": "季节性规律" },
+  "airline": { "overallOTP": "总体准点率", "delayCauses": "延误原因", "mostDelayed": "延误最多的航线", "mostOnTime": "准点率最高的航线", "avgDelay": "平均延误", "cancelRate": "取消率", "hubs": "枢纽机场" },
+  "heatmap": { "hour": "小时", "day": "天", "avgDelay": "平均延误", "bestTime": "最佳时间", "minutes": "分钟" },
+  "footer": { "todayVisits": "今日", "totalVisits": "总计", "copyright": "© 2024 FlightDelayBoard. 数据来自BTS准点率数据库。", "visitors": "访客" },
+  "common": { "loading": "加载中...", "noData": "无数据", "liveData": "实时数据", "cachedData": "缓存数据", "minutes": "分钟", "rank": "排名", "airport": "机场", "city": "城市", "state": "州", "sortBy": "排序方式", "filter": "筛选", "all": "全部", "bestTimes": "最佳时间", "performance": "表现" },
+  "homepage": { "topAirports": "准点率最高机场", "delayIndex": "当前延误指数", "viewAll": "查看所有机场", "compareAirlines": "对比航空公司", "bestTimeGuide": "最佳飞行时间指南", "green": "准点 (>85%)", "yellow": "一般 (75-85%)", "red": "较差 (<75%)" },
+  "bestTime": { "title": "最佳飞行时间", "subtitle": "找到延误最少的最佳出发日期和时间", "byDay": "按星期", "byHour": "按小时", "byMonth": "按月份", "tip": "周二或周三早班飞机通常延误最少" }
+}

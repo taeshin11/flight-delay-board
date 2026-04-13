@@ -1,0 +1,13 @@
+{
+  "nav": { "home": "Startseite", "airports": "Flughäfen", "routes": "Routen", "airlines": "Airlines", "bestTime": "Beste Reisezeit", "search": "Suchen" },
+  "hero": { "title": "Flughafenverzögerungen heute", "subtitle": "Echtzeit-Pünktlichkeit und Verspätungsstatus für US-Flughäfen", "lastUpdated": "Zuletzt aktualisiert" },
+  "status": { "noDelay": "Pünktlich", "moderate": "Leichte Verspätungen", "severe": "Starke Verspätungen", "groundStop": "Bodenstopp", "unknown": "Unbekannt", "onTime": "Pünktlich" },
+  "airport": { "onTimeRate": "Pünktlichkeitsrate", "avgDelay": "Durchschnittliche Verspätung", "cancelRate": "Stornierungsrate", "bestTimeToFly": "Beste Reisezeit", "topRoutes": "Top-Routen", "delayByHour": "Verspätung nach Stunde", "bestDay": "Bester Tag", "worstDay": "Schlechtester Tag", "bestHour": "Beste Stunde", "worstHour": "Schlechteste Stunde", "airlines": "Airlines", "terminals": "Terminals", "viewDetails": "Details anzeigen" },
+  "route": { "onTimeRate": "Pünktlichkeitsrate", "airlineComparison": "Airline-Vergleich", "bestDeparture": "Beste Abflugzeit", "seasonal": "Saisonale Muster" },
+  "airline": { "overallOTP": "Gesamtpünktlichkeit", "delayCauses": "Verspätungsursachen", "mostDelayed": "Meiste Verspätungen", "mostOnTime": "Pünktlichste Routen", "avgDelay": "Durchschnittliche Verspätung", "cancelRate": "Stornierungsrate", "hubs": "Hub-Flughäfen" },
+  "heatmap": { "hour": "Stunde", "day": "Tag", "avgDelay": "Durchschnittliche Verspätung", "bestTime": "Beste Zeit", "minutes": "Min" },
+  "footer": { "todayVisits": "Heute", "totalVisits": "Gesamt", "copyright": "© 2024 FlightDelayBoard. Daten aus der BTS-Pünktlichkeitsdatenbank.", "visitors": "Besucher" },
+  "common": { "loading": "Laden...", "noData": "Keine Daten", "liveData": "Live-Daten", "cachedData": "Cache-Daten", "minutes": "Min", "rank": "Rang", "airport": "Flughafen", "city": "Stadt", "state": "Bundesstaat", "sortBy": "Sortieren nach", "filter": "Filter", "all": "Alle", "bestTimes": "Beste Zeiten", "performance": "Leistung" },
+  "homepage": { "topAirports": "Pünktlichste Flughäfen", "delayIndex": "Aktueller Verspätungsindex", "viewAll": "Alle Flughäfen ansehen", "compareAirlines": "Airlines vergleichen", "bestTimeGuide": "Beste Reisezeit-Leitfaden", "green": "Pünktlich (>85%)", "yellow": "Mittel (75-85%)", "red": "Schlecht (<75%)" },
+  "bestTime": { "title": "Beste Reisezeit", "subtitle": "Finden Sie den besten Tag und die beste Zeit, um Verspätungen zu minimieren", "byDay": "Nach Wochentag", "byHour": "Nach Tageszeit", "byMonth": "Nach Monat", "tip": "Dienstag- oder Mittwochmorgen haben typischerweise die wenigsten Verspätungen" }
+}

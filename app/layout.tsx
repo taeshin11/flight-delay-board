@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  verification: {
+    google: "WddgcbVJsL2BGHNAje5m6DK56IcR0Mw5UOqozI2Xtrc",
+  },
   title: "Airport Delays Today — Live Status Board | FlightDelayBoard",
   description:
     "Live airport delay status for all major US airports. Updated every 10 minutes. Check delays at LAX, JFK, ORD, ATL, and more.",

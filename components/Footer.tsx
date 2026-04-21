@@ -36,6 +36,10 @@ export default function Footer() {
               <li><a href="/en/airlines" className="hover:text-white transition-colors">Airlines</a></li>
               <li><a href="/en/routes" className="hover:text-white transition-colors">Routes</a></li>
               <li><a href="/en/best-time" className="hover:text-white transition-colors">Best Time to Fly</a></li>
+              <li><a href="/en/how-to-use" className="hover:text-white transition-colors">How to Use / FAQ</a></li>
+              <li><a href="/en/about" className="hover:text-white transition-colors">About</a></li>
+              <li><a href="/en/privacy" className="hover:text-white transition-colors">Privacy Policy</a></li>
+              <li><a href="/en/terms" className="hover:text-white transition-colors">Terms of Use</a></li>
             </ul>
           </div>
 

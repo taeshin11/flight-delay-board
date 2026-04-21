@@ -3,6 +3,8 @@ import { getTranslations } from "next-intl/server";
 import { getAllAirports, getAllAirlines, getTopAirportsByOnTimeRate } from "@/lib/data";
 import { getStatusBorderColor, getOnTimeColor } from "@/lib/types";
 import { Plane, TrendingUp, Clock, AlertTriangle } from "lucide-react";
+import { AdsterraNativeBanner } from '@/components/ads/AdsterraNativeBanner';
+import { AdsterraDisplay } from '@/components/ads/AdsterraDisplay';
 
 export const revalidate = 600;
 
@@ -216,6 +218,8 @@ export default async function HomePage({ params }: Props) {
             {t("homepage.bestTimeGuide")}
           </Link>
         </section>
+      <AdsterraNativeBanner />
+      <AdsterraDisplay />
       </div>
     </div>
   );

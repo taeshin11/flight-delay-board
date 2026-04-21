@@ -8,5 +8,6 @@ export function proxy(request: Parameters<typeof handleI18n>[0]) {
 }
 
 export const config = {
-  matcher: ["/", "/(en|ko|ja|zh|es|fr|de|pt)/:path*"],
+  matcher: ['/((?!api|_next/static|_next/image|favicon.ico|.*\..*).*)']
+,
 };

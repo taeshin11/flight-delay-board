@@ -1,52 +1,1359 @@
 [
-  {"code":"ATL","name":"Hartsfield-Jackson Atlanta International Airport","city":"Atlanta","state":"GA","onTimeRate":82.3,"avgDelayMin":18,"cancelRate":1.8,"bestDay":"Tuesday","worstDay":"Friday","bestHour":6,"worstHour":18,"terminals":["T","S","A","B","C","D","E","F","G"],"airlines":["Delta","Southwest","American","United","Spirit"],"website":"https://www.atl.com"},
-  {"code":"LAX","name":"Los Angeles International Airport","city":"Los Angeles","state":"CA","onTimeRate":78.4,"avgDelayMin":23,"cancelRate":1.4,"bestDay":"Tuesday","worstDay":"Sunday","bestHour":7,"worstHour":17,"terminals":["1","2","3","4","5","6","7","8","B","TBIT"],"airlines":["American","United","Delta","Southwest","Alaska","Spirit"],"website":"https://www.flylax.com"},
-  {"code":"ORD","name":"Chicago O'Hare International Airport","city":"Chicago","state":"IL","onTimeRate":74.1,"avgDelayMin":29,"cancelRate":2.6,"bestDay":"Saturday","worstDay":"Monday","bestHour":6,"worstHour":19,"terminals":["1","2","3","5"],"airlines":["United","American","Delta","Spirit","Frontier"],"website":"https://www.flychicago.com"},
-  {"code":"DFW","name":"Dallas/Fort Worth International Airport","city":"Dallas","state":"TX","onTimeRate":80.9,"avgDelayMin":20,"cancelRate":1.9,"bestDay":"Tuesday","worstDay":"Friday","bestHour":6,"worstHour":18,"terminals":["A","B","C","D","E"],"airlines":["American","Spirit","Frontier","United","Southwest"],"website":"https://www.dfwairport.com"},
-  {"code":"DEN","name":"Denver International Airport","city":"Denver","state":"CO","onTimeRate":79.2,"avgDelayMin":22,"cancelRate":2.1,"bestDay":"Wednesday","worstDay":"Sunday","bestHour":7,"worstHour":16,"terminals":["A","B","C"],"airlines":["United","Southwest","Frontier","Delta","American","Spirit"],"website":"https://www.flydenver.com"},
-  {"code":"JFK","name":"John F. Kennedy International Airport","city":"New York","state":"NY","onTimeRate":72.8,"avgDelayMin":31,"cancelRate":1.7,"bestDay":"Saturday","worstDay":"Thursday","bestHour":7,"worstHour":20,"terminals":["1","2","4","5","7","8"],"airlines":["Delta","JetBlue","American","United","Hawaiian"],"website":"https://www.jfkairport.com"},
-  {"code":"SFO","name":"San Francisco International Airport","city":"San Francisco","state":"CA","onTimeRate":73.5,"avgDelayMin":28,"cancelRate":1.5,"bestDay":"Tuesday","worstDay":"Friday","bestHour":8,"worstHour":17,"terminals":["1","2","3","International A","International G"],"airlines":["United","Alaska","Delta","American","Southwest"],"website":"https://www.flysfo.com"},
-  {"code":"SEA","name":"Seattle-Tacoma International Airport","city":"Seattle","state":"WA","onTimeRate":77.6,"avgDelayMin":24,"cancelRate":1.6,"bestDay":"Tuesday","worstDay":"Sunday","bestHour":7,"worstHour":18,"terminals":["Main","S","A","B","C","D"],"airlines":["Alaska","Delta","Southwest","United","American"],"website":"https://www.portseattle.org"},
-  {"code":"LAS","name":"Harry Reid International Airport","city":"Las Vegas","state":"NV","onTimeRate":83.7,"avgDelayMin":16,"cancelRate":1.2,"bestDay":"Wednesday","worstDay":"Friday","bestHour":8,"worstHour":19,"terminals":["1","3"],"airlines":["Southwest","Spirit","Frontier","Delta","American"],"website":"https://www.harryreidairport.com"},
-  {"code":"MCO","name":"Orlando International Airport","city":"Orlando","state":"FL","onTimeRate":85.1,"avgDelayMin":15,"cancelRate":1.3,"bestDay":"Tuesday","worstDay":"Saturday","bestHour":7,"worstHour":17,"terminals":["A","B","C","T1","T2"],"airlines":["Southwest","Spirit","Frontier","JetBlue","Delta"],"website":"https://www.orlandoairports.net"},
-  {"code":"EWR","name":"Newark Liberty International Airport","city":"Newark","state":"NJ","onTimeRate":70.2,"avgDelayMin":34,"cancelRate":2.0,"bestDay":"Saturday","worstDay":"Monday","bestHour":6,"worstHour":20,"terminals":["A","B","C"],"airlines":["United","Delta","American","JetBlue","Spirit"],"website":"https://www.newarkairport.com"},
-  {"code":"CLT","name":"Charlotte Douglas International Airport","city":"Charlotte","state":"NC","onTimeRate":84.5,"avgDelayMin":16,"cancelRate":1.4,"bestDay":"Tuesday","worstDay":"Friday","bestHour":6,"worstHour":18,"terminals":["A","B","C","D","E"],"airlines":["American","Delta","Southwest","United","Spirit"],"website":"https://www.cltairport.com"},
-  {"code":"PHX","name":"Phoenix Sky Harbor International Airport","city":"Phoenix","state":"AZ","onTimeRate":86.2,"avgDelayMin":14,"cancelRate":1.1,"bestDay":"Tuesday","worstDay":"Sunday","bestHour":6,"worstHour":17,"terminals":["2","3","4"],"airlines":["Southwest","American","Delta","United","Frontier"],"website":"https://www.skyharbor.com"},
-  {"code":"IAH","name":"George Bush Intercontinental Airport","city":"Houston","state":"TX","onTimeRate":79.8,"avgDelayMin":21,"cancelRate":1.8,"bestDay":"Wednesday","worstDay":"Friday","bestHour":7,"worstHour":18,"terminals":["A","B","C","D","E"],"airlines":["United","Southwest","Spirit","Delta","American"],"website":"https://www.fly2houston.com"},
-  {"code":"MIA","name":"Miami International Airport","city":"Miami","state":"FL","onTimeRate":80.6,"avgDelayMin":20,"cancelRate":1.5,"bestDay":"Tuesday","worstDay":"Friday","bestHour":7,"worstHour":19,"terminals":["D","E","F","G","H","J"],"airlines":["American","Spirit","Frontier","Delta","JetBlue"],"website":"https://www.miami-airport.com"},
-  {"code":"BOS","name":"Logan International Airport","city":"Boston","state":"MA","onTimeRate":78.9,"avgDelayMin":22,"cancelRate":1.9,"bestDay":"Saturday","worstDay":"Monday","bestHour":7,"worstHour":18,"terminals":["A","B","C","E"],"airlines":["JetBlue","American","Delta","Southwest","United"],"website":"https://www.massport.com/logan-airport"},
-  {"code":"MSP","name":"Minneapolis-Saint Paul International Airport","city":"Minneapolis","state":"MN","onTimeRate":81.4,"avgDelayMin":19,"cancelRate":2.3,"bestDay":"Tuesday","worstDay":"Sunday","bestHour":6,"worstHour":17,"terminals":["1","2"],"airlines":["Delta","Sun Country","Southwest","United","American"],"website":"https://www.mspairport.com"},
-  {"code":"FLL","name":"Fort Lauderdale-Hollywood International Airport","city":"Fort Lauderdale","state":"FL","onTimeRate":84.9,"avgDelayMin":15,"cancelRate":1.3,"bestDay":"Wednesday","worstDay":"Saturday","bestHour":7,"worstHour":18,"terminals":["1","2","3","4"],"airlines":["Spirit","JetBlue","Southwest","Delta","American"],"website":"https://www.broward.org/airport"},
-  {"code":"DTW","name":"Detroit Metropolitan Wayne County Airport","city":"Detroit","state":"MI","onTimeRate":82.7,"avgDelayMin":18,"cancelRate":1.7,"bestDay":"Tuesday","worstDay":"Friday","bestHour":7,"worstHour":18,"terminals":["North","South"],"airlines":["Delta","Spirit","American","Southwest","United"],"website":"https://www.metroairport.com"},
-  {"code":"PHL","name":"Philadelphia International Airport","city":"Philadelphia","state":"PA","onTimeRate":73.6,"avgDelayMin":28,"cancelRate":2.1,"bestDay":"Saturday","worstDay":"Monday","bestHour":7,"worstHour":19,"terminals":["A","B","C","D","E","F"],"airlines":["American","Southwest","Delta","Spirit","Frontier"],"website":"https://www.phl.org"},
-  {"code":"LGA","name":"LaGuardia Airport","city":"New York","state":"NY","onTimeRate":68.4,"avgDelayMin":36,"cancelRate":1.8,"bestDay":"Saturday","worstDay":"Monday","bestHour":7,"worstHour":20,"terminals":["A","B","C","D"],"airlines":["Delta","American","Southwest","United","JetBlue"],"website":"https://www.laguardiaairport.com"},
-  {"code":"BWI","name":"Baltimore/Washington International Airport","city":"Baltimore","state":"MD","onTimeRate":83.2,"avgDelayMin":17,"cancelRate":1.4,"bestDay":"Tuesday","worstDay":"Friday","bestHour":6,"worstHour":18,"terminals":["A","B","C","D","E"],"airlines":["Southwest","Spirit","Frontier","Delta","American"],"website":"https://www.bwiairport.com"},
-  {"code":"SLC","name":"Salt Lake City International Airport","city":"Salt Lake City","state":"UT","onTimeRate":84.3,"avgDelayMin":16,"cancelRate":1.6,"bestDay":"Wednesday","worstDay":"Sunday","bestHour":7,"worstHour":17,"terminals":["A","B"],"airlines":["Delta","Southwest","United","American","Frontier"],"website":"https://www.slcairport.com"},
-  {"code":"IAD","name":"Washington Dulles International Airport","city":"Washington","state":"DC","onTimeRate":78.1,"avgDelayMin":23,"cancelRate":1.7,"bestDay":"Tuesday","worstDay":"Friday","bestHour":7,"worstHour":18,"terminals":["Main","A","B","C","D"],"airlines":["United","Delta","American","Spirit","Frontier"],"website":"https://www.flydulles.com"},
-  {"code":"DCA","name":"Ronald Reagan Washington National Airport","city":"Washington","state":"DC","onTimeRate":76.5,"avgDelayMin":25,"cancelRate":1.5,"bestDay":"Saturday","worstDay":"Monday","bestHour":7,"worstHour":19,"terminals":["A","B","C"],"airlines":["American","Delta","Southwest","United","Spirit"],"website":"https://www.flyreagan.com"},
-  {"code":"MDW","name":"Chicago Midway International Airport","city":"Chicago","state":"IL","onTimeRate":80.3,"avgDelayMin":20,"cancelRate":1.9,"bestDay":"Tuesday","worstDay":"Monday","bestHour":6,"worstHour":18,"terminals":["A","B","C","D","E"],"airlines":["Southwest","Spirit","Delta","American","Frontier"],"website":"https://www.flychicago.com/midway"},
-  {"code":"HNL","name":"Daniel K. Inouye International Airport","city":"Honolulu","state":"HI","onTimeRate":86.8,"avgDelayMin":13,"cancelRate":0.9,"bestDay":"Tuesday","worstDay":"Friday","bestHour":7,"worstHour":16,"terminals":["1","2","3","International"],"airlines":["Hawaiian","Alaska","Delta","American","United"],"website":"https://www.airports.hawaii.gov"},
-  {"code":"SAN","name":"San Diego International Airport","city":"San Diego","state":"CA","onTimeRate":83.9,"avgDelayMin":17,"cancelRate":1.3,"bestDay":"Wednesday","worstDay":"Sunday","bestHour":7,"worstHour":18,"terminals":["1","2"],"airlines":["Southwest","Alaska","American","Delta","United"],"website":"https://www.san.org"},
-  {"code":"TPA","name":"Tampa International Airport","city":"Tampa","state":"FL","onTimeRate":85.4,"avgDelayMin":14,"cancelRate":1.2,"bestDay":"Tuesday","worstDay":"Saturday","bestHour":7,"worstHour":17,"terminals":["E","F"],"airlines":["Southwest","Spirit","Frontier","Delta","American"],"website":"https://www.tampaairport.com"},
-  {"code":"PDX","name":"Portland International Airport","city":"Portland","state":"OR","onTimeRate":79.7,"avgDelayMin":21,"cancelRate":1.5,"bestDay":"Tuesday","worstDay":"Sunday","bestHour":7,"worstHour":18,"terminals":["A","B","C","D","E"],"airlines":["Alaska","Southwest","Delta","United","American"],"website":"https://www.flypdx.com"},
-  {"code":"STL","name":"St. Louis Lambert International Airport","city":"St. Louis","state":"MO","onTimeRate":84.6,"avgDelayMin":15,"cancelRate":1.4,"bestDay":"Wednesday","worstDay":"Friday","bestHour":7,"worstHour":17,"terminals":["1","2"],"airlines":["Southwest","American","Delta","United","Frontier"],"website":"https://www.flystl.com"},
-  {"code":"BNA","name":"Nashville International Airport","city":"Nashville","state":"TN","onTimeRate":83.1,"avgDelayMin":17,"cancelRate":1.5,"bestDay":"Tuesday","worstDay":"Friday","bestHour":7,"worstHour":18,"terminals":["C","D"],"airlines":["Southwest","American","Delta","Spirit","Frontier"],"website":"https://www.flynashville.com"},
-  {"code":"AUS","name":"Austin-Bergstrom International Airport","city":"Austin","state":"TX","onTimeRate":81.5,"avgDelayMin":19,"cancelRate":1.6,"bestDay":"Tuesday","worstDay":"Sunday","bestHour":7,"worstHour":18,"terminals":["Barbara Jordan","South Terminal"],"airlines":["Southwest","American","Delta","United","Spirit"],"website":"https://www.austintexas.gov/airport"},
-  {"code":"RDU","name":"Raleigh-Durham International Airport","city":"Raleigh","state":"NC","onTimeRate":82.8,"avgDelayMin":18,"cancelRate":1.5,"bestDay":"Wednesday","worstDay":"Friday","bestHour":7,"worstHour":17,"terminals":["1","2"],"airlines":["American","Delta","Southwest","United","Spirit"],"website":"https://www.rdu.com"},
-  {"code":"MCI","name":"Kansas City International Airport","city":"Kansas City","state":"MO","onTimeRate":85.7,"avgDelayMin":14,"cancelRate":1.3,"bestDay":"Tuesday","worstDay":"Sunday","bestHour":7,"worstHour":17,"terminals":["A","B","C"],"airlines":["Southwest","Delta","American","United","Frontier"],"website":"https://www.flykci.com"},
-  {"code":"SMF","name":"Sacramento International Airport","city":"Sacramento","state":"CA","onTimeRate":84.2,"avgDelayMin":16,"cancelRate":1.3,"bestDay":"Tuesday","worstDay":"Sunday","bestHour":7,"worstHour":17,"terminals":["A","B"],"airlines":["Southwest","Alaska","Delta","American","United"],"website":"https://sacramento.aero"},
-  {"code":"SJC","name":"Norman Y. Mineta San Jose International Airport","city":"San Jose","state":"CA","onTimeRate":82.4,"avgDelayMin":18,"cancelRate":1.4,"bestDay":"Tuesday","worstDay":"Friday","bestHour":7,"worstHour":18,"terminals":["A","B"],"airlines":["Southwest","Alaska","Delta","American","United"],"website":"https://www.flysanjose.com"},
-  {"code":"OAK","name":"Oakland International Airport","city":"Oakland","state":"CA","onTimeRate":83.6,"avgDelayMin":17,"cancelRate":1.3,"bestDay":"Wednesday","worstDay":"Sunday","bestHour":7,"worstHour":18,"terminals":["1","2"],"airlines":["Southwest","Alaska","Delta","Spirit","Frontier"],"website":"https://www.oaklandairport.com"},
-  {"code":"SNA","name":"John Wayne Airport","city":"Santa Ana","state":"CA","onTimeRate":85.9,"avgDelayMin":14,"cancelRate":1.1,"bestDay":"Tuesday","worstDay":"Friday","bestHour":8,"worstHour":17,"terminals":["A","B","C"],"airlines":["Southwest","Alaska","Delta","American","United"],"website":"https://www.ocair.com"},
-  {"code":"MKE","name":"Milwaukee Mitchell International Airport","city":"Milwaukee","state":"WI","onTimeRate":84.4,"avgDelayMin":16,"cancelRate":1.5,"bestDay":"Tuesday","worstDay":"Friday","bestHour":7,"worstHour":17,"terminals":["C","D"],"airlines":["Southwest","Frontier","Delta","American","United"],"website":"https://www.mitchellairport.com"},
-  {"code":"PIT","name":"Pittsburgh International Airport","city":"Pittsburgh","state":"PA","onTimeRate":83.7,"avgDelayMin":17,"cancelRate":1.6,"bestDay":"Tuesday","worstDay":"Friday","bestHour":7,"worstHour":17,"terminals":["Airside","Landside"],"airlines":["Southwest","American","Delta","United","Frontier"],"website":"https://flypittsburgh.com"},
-  {"code":"CMH","name":"John Glenn Columbus International Airport","city":"Columbus","state":"OH","onTimeRate":85.2,"avgDelayMin":14,"cancelRate":1.3,"bestDay":"Wednesday","worstDay":"Sunday","bestHour":7,"worstHour":17,"terminals":["A","B"],"airlines":["Southwest","Delta","American","United","Frontier"],"website":"https://www.flycolumbus.com"},
-  {"code":"RSW","name":"Southwest Florida International Airport","city":"Fort Myers","state":"FL","onTimeRate":86.1,"avgDelayMin":13,"cancelRate":1.1,"bestDay":"Tuesday","worstDay":"Saturday","bestHour":7,"worstHour":16,"terminals":["Concourse A","Concourse B","Concourse C"],"airlines":["Southwest","Spirit","Frontier","American","Delta"],"website":"https://www.flylcpa.com"},
-  {"code":"CLE","name":"Cleveland Hopkins International Airport","city":"Cleveland","state":"OH","onTimeRate":81.9,"avgDelayMin":19,"cancelRate":1.8,"bestDay":"Tuesday","worstDay":"Monday","bestHour":7,"worstHour":17,"terminals":["A","B","C","D"],"airlines":["Southwest","Frontier","Delta","American","United"],"website":"https://www.clevelandairport.com"},
-  {"code":"IND","name":"Indianapolis International Airport","city":"Indianapolis","state":"IN","onTimeRate":85.3,"avgDelayMin":14,"cancelRate":1.2,"bestDay":"Tuesday","worstDay":"Friday","bestHour":7,"worstHour":17,"terminals":["A","B"],"airlines":["Southwest","Delta","American","United","Frontier"],"website":"https://www.indianapolisairport.com"},
-  {"code":"DAL","name":"Dallas Love Field Airport","city":"Dallas","state":"TX","onTimeRate":87.2,"avgDelayMin":12,"cancelRate":1.1,"bestDay":"Tuesday","worstDay":"Friday","bestHour":7,"worstHour":17,"terminals":["A","B"],"airlines":["Southwest","Delta","American","United","Spirit"],"website":"https://www.dallas-lovefield.com"},
-  {"code":"HOU","name":"William P. Hobby Airport","city":"Houston","state":"TX","onTimeRate":85.8,"avgDelayMin":13,"cancelRate":1.2,"bestDay":"Wednesday","worstDay":"Friday","bestHour":7,"worstHour":17,"terminals":["A","B","C","D","E"],"airlines":["Southwest","Delta","American","United","Spirit"],"website":"https://www.fly2houston.com/hobby"},
-  {"code":"BUR","name":"Hollywood Burbank Airport","city":"Burbank","state":"CA","onTimeRate":86.4,"avgDelayMin":13,"cancelRate":1.0,"bestDay":"Tuesday","worstDay":"Sunday","bestHour":7,"worstHour":17,"terminals":["A","B"],"airlines":["Southwest","Alaska","Delta","American","United"],"website":"https://www.hollywoodburbankairport.com"},
-  {"code":"ONT","name":"Ontario International Airport","city":"Ontario","state":"CA","onTimeRate":85.6,"avgDelayMin":14,"cancelRate":1.1,"bestDay":"Tuesday","worstDay":"Sunday","bestHour":7,"worstHour":17,"terminals":["2","4"],"airlines":["Southwest","Alaska","Delta","American","Spirit"],"website":"https://www.flyontario.com"},
-  {"code":"ABQ","name":"Albuquerque International Sunport","city":"Albuquerque","state":"NM","onTimeRate":84.8,"avgDelayMin":15,"cancelRate":1.3,"bestDay":"Tuesday","worstDay":"Sunday","bestHour":7,"worstHour":17,"terminals":["A","B","C","D"],"airlines":["Southwest","American","Delta","United","Frontier"],"website":"https://www.abqsunport.com"}
+  {
+    "code": "ATL",
+    "name": "Hartsfield-Jackson Atlanta International Airport",
+    "city": "Atlanta",
+    "state": "GA",
+    "onTimeRate": 82.3,
+    "avgDelayMin": 18,
+    "cancelRate": 1.8,
+    "bestDay": "Tuesday",
+    "worstDay": "Friday",
+    "bestHour": 6,
+    "worstHour": 18,
+    "terminals": [
+      "T",
+      "S",
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ],
+    "airlines": [
+      "Delta",
+      "Southwest",
+      "American",
+      "United"
+    ],
+    "website": "https://www.atl.com",
+    "lastUpdated": "2026-04-22"
+  },
+  {
+    "code": "LAX",
+    "name": "Los Angeles International Airport",
+    "city": "Los Angeles",
+    "state": "CA",
+    "onTimeRate": 78.4,
+    "avgDelayMin": 23,
+    "cancelRate": 1.4,
+    "bestDay": "Tuesday",
+    "worstDay": "Sunday",
+    "bestHour": 7,
+    "worstHour": 17,
+    "terminals": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "B",
+      "TBIT"
+    ],
+    "airlines": [
+      "American",
+      "United",
+      "Delta",
+      "Southwest",
+      "Alaska"
+    ],
+    "website": "https://www.flylax.com",
+    "lastUpdated": "2026-04-22"
+  },
+  {
+    "code": "ORD",
+    "name": "Chicago O'Hare International Airport",
+    "city": "Chicago",
+    "state": "IL",
+    "onTimeRate": 74.1,
+    "avgDelayMin": 29,
+    "cancelRate": 2.6,
+    "bestDay": "Saturday",
+    "worstDay": "Monday",
+    "bestHour": 6,
+    "worstHour": 19,
+    "terminals": [
+      "1",
+      "2",
+      "3",
+      "5"
+    ],
+    "airlines": [
+      "United",
+      "American",
+      "Delta",
+      "Frontier"
+    ],
+    "website": "https://www.flychicago.com",
+    "lastUpdated": "2026-04-22"
+  },
+  {
+    "code": "DFW",
+    "name": "Dallas/Fort Worth International Airport",
+    "city": "Dallas",
+    "state": "TX",
+    "onTimeRate": 80.9,
+    "avgDelayMin": 20,
+    "cancelRate": 1.9,
+    "bestDay": "Tuesday",
+    "worstDay": "Friday",
+    "bestHour": 6,
+    "worstHour": 18,
+    "terminals": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "airlines": [
+      "American",
+      "Frontier",
+      "United",
+      "Southwest"
+    ],
+    "website": "https://www.dfwairport.com",
+    "lastUpdated": "2026-04-22"
+  },
+  {
+    "code": "DEN",
+    "name": "Denver International Airport",
+    "city": "Denver",
+    "state": "CO",
+    "onTimeRate": 79.2,
+    "avgDelayMin": 22,
+    "cancelRate": 2.1,
+    "bestDay": "Wednesday",
+    "worstDay": "Sunday",
+    "bestHour": 7,
+    "worstHour": 16,
+    "terminals": [
+      "A",
+      "B",
+      "C"
+    ],
+    "airlines": [
+      "United",
+      "Southwest",
+      "Frontier",
+      "Delta",
+      "American"
+    ],
+    "website": "https://www.flydenver.com",
+    "lastUpdated": "2026-04-22"
+  },
+  {
+    "code": "JFK",
+    "name": "John F. Kennedy International Airport",
+    "city": "New York",
+    "state": "NY",
+    "onTimeRate": 72.8,
+    "avgDelayMin": 31,
+    "cancelRate": 1.7,
+    "bestDay": "Saturday",
+    "worstDay": "Thursday",
+    "bestHour": 7,
+    "worstHour": 20,
+    "terminals": [
+      "1",
+      "2",
+      "4",
+      "5",
+      "7",
+      "8"
+    ],
+    "airlines": [
+      "Delta",
+      "JetBlue",
+      "American",
+      "United",
+      "Hawaiian"
+    ],
+    "website": "https://www.jfkairport.com",
+    "lastUpdated": "2026-04-22"
+  },
+  {
+    "code": "SFO",
+    "name": "San Francisco International Airport",
+    "city": "San Francisco",
+    "state": "CA",
+    "onTimeRate": 73.5,
+    "avgDelayMin": 28,
+    "cancelRate": 1.5,
+    "bestDay": "Tuesday",
+    "worstDay": "Friday",
+    "bestHour": 8,
+    "worstHour": 17,
+    "terminals": [
+      "1",
+      "2",
+      "3",
+      "International A",
+      "International G"
+    ],
+    "airlines": [
+      "United",
+      "Alaska",
+      "Delta",
+      "American",
+      "Southwest"
+    ],
+    "website": "https://www.flysfo.com",
+    "lastUpdated": "2026-04-22"
+  },
+  {
+    "code": "SEA",
+    "name": "Seattle-Tacoma International Airport",
+    "city": "Seattle",
+    "state": "WA",
+    "onTimeRate": 77.6,
+    "avgDelayMin": 24,
+    "cancelRate": 1.6,
+    "bestDay": "Tuesday",
+    "worstDay": "Sunday",
+    "bestHour": 7,
+    "worstHour": 18,
+    "terminals": [
+      "Main",
+      "S",
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "airlines": [
+      "Alaska",
+      "Delta",
+      "Southwest",
+      "United",
+      "American"
+    ],
+    "website": "https://www.portseattle.org",
+    "lastUpdated": "2026-04-22"
+  },
+  {
+    "code": "LAS",
+    "name": "Harry Reid International Airport",
+    "city": "Las Vegas",
+    "state": "NV",
+    "onTimeRate": 83.7,
+    "avgDelayMin": 16,
+    "cancelRate": 1.2,
+    "bestDay": "Wednesday",
+    "worstDay": "Friday",
+    "bestHour": 8,
+    "worstHour": 19,
+    "terminals": [
+      "1",
+      "3"
+    ],
+    "airlines": [
+      "Southwest",
+      "Frontier",
+      "Delta",
+      "American"
+    ],
+    "website": "https://www.harryreidairport.com",
+    "lastUpdated": "2026-04-22"
+  },
+  {
+    "code": "MCO",
+    "name": "Orlando International Airport",
+    "city": "Orlando",
+    "state": "FL",
+    "onTimeRate": 85.1,
+    "avgDelayMin": 15,
+    "cancelRate": 1.3,
+    "bestDay": "Tuesday",
+    "worstDay": "Saturday",
+    "bestHour": 7,
+    "worstHour": 17,
+    "terminals": [
+      "A",
+      "B",
+      "C",
+      "T1",
+      "T2"
+    ],
+    "airlines": [
+      "Southwest",
+      "Frontier",
+      "JetBlue",
+      "Delta"
+    ],
+    "website": "https://www.orlandoairports.net",
+    "lastUpdated": "2026-04-22"
+  },
+  {
+    "code": "EWR",
+    "name": "Newark Liberty International Airport",
+    "city": "Newark",
+    "state": "NJ",
+    "onTimeRate": 70.2,
+    "avgDelayMin": 34,
+    "cancelRate": 2.0,
+    "bestDay": "Saturday",
+    "worstDay": "Monday",
+    "bestHour": 6,
+    "worstHour": 20,
+    "terminals": [
+      "A",
+      "B",
+      "C"
+    ],
+    "airlines": [
+      "United",
+      "Delta",
+      "American",
+      "JetBlue"
+    ],
+    "website": "https://www.newarkairport.com",
+    "lastUpdated": "2026-04-22"
+  },
+  {
+    "code": "CLT",
+    "name": "Charlotte Douglas International Airport",
+    "city": "Charlotte",
+    "state": "NC",
+    "onTimeRate": 84.5,
+    "avgDelayMin": 16,
+    "cancelRate": 1.4,
+    "bestDay": "Tuesday",
+    "worstDay": "Friday",
+    "bestHour": 6,
+    "worstHour": 18,
+    "terminals": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "airlines": [
+      "American",
+      "Delta",
+      "Southwest",
+      "United"
+    ],
+    "website": "https://www.cltairport.com",
+    "lastUpdated": "2026-04-22"
+  },
+  {
+    "code": "PHX",
+    "name": "Phoenix Sky Harbor International Airport",
+    "city": "Phoenix",
+    "state": "AZ",
+    "onTimeRate": 86.2,
+    "avgDelayMin": 14,
+    "cancelRate": 1.1,
+    "bestDay": "Tuesday",
+    "worstDay": "Sunday",
+    "bestHour": 6,
+    "worstHour": 17,
+    "terminals": [
+      "2",
+      "3",
+      "4"
+    ],
+    "airlines": [
+      "Southwest",
+      "American",
+      "Delta",
+      "United",
+      "Frontier"
+    ],
+    "website": "https://www.skyharbor.com",
+    "lastUpdated": "2026-04-22"
+  },
+  {
+    "code": "IAH",
+    "name": "George Bush Intercontinental Airport",
+    "city": "Houston",
+    "state": "TX",
+    "onTimeRate": 79.8,
+    "avgDelayMin": 21,
+    "cancelRate": 1.8,
+    "bestDay": "Wednesday",
+    "worstDay": "Friday",
+    "bestHour": 7,
+    "worstHour": 18,
+    "terminals": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "airlines": [
+      "United",
+      "Southwest",
+      "Delta",
+      "American"
+    ],
+    "website": "https://www.fly2houston.com",
+    "lastUpdated": "2026-04-22"
+  },
+  {
+    "code": "MIA",
+    "name": "Miami International Airport",
+    "city": "Miami",
+    "state": "FL",
+    "onTimeRate": 80.6,
+    "avgDelayMin": 20,
+    "cancelRate": 1.5,
+    "bestDay": "Tuesday",
+    "worstDay": "Friday",
+    "bestHour": 7,
+    "worstHour": 19,
+    "terminals": [
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "J"
+    ],
+    "airlines": [
+      "American",
+      "Frontier",
+      "Delta",
+      "JetBlue"
+    ],
+    "website": "https://www.miami-airport.com",
+    "lastUpdated": "2026-04-22"
+  },
+  {
+    "code": "BOS",
+    "name": "Logan International Airport",
+    "city": "Boston",
+    "state": "MA",
+    "onTimeRate": 78.9,
+    "avgDelayMin": 22,
+    "cancelRate": 1.9,
+    "bestDay": "Saturday",
+    "worstDay": "Monday",
+    "bestHour": 7,
+    "worstHour": 18,
+    "terminals": [
+      "A",
+      "B",
+      "C",
+      "E"
+    ],
+    "airlines": [
+      "JetBlue",
+      "American",
+      "Delta",
+      "Southwest",
+      "United"
+    ],
+    "website": "https://www.massport.com/logan-airport",
+    "lastUpdated": "2026-04-22"
+  },
+  {
+    "code": "MSP",
+    "name": "Minneapolis-Saint Paul International Airport",
+    "city": "Minneapolis",
+    "state": "MN",
+    "onTimeRate": 81.4,
+    "avgDelayMin": 19,
+    "cancelRate": 2.3,
+    "bestDay": "Tuesday",
+    "worstDay": "Sunday",
+    "bestHour": 6,
+    "worstHour": 17,
+    "terminals": [
+      "1",
+      "2"
+    ],
+    "airlines": [
+      "Delta",
+      "Sun Country",
+      "Southwest",
+      "United",
+      "American"
+    ],
+    "website": "https://www.mspairport.com",
+    "lastUpdated": "2026-04-22"
+  },
+  {
+    "code": "FLL",
+    "name": "Fort Lauderdale-Hollywood International Airport",
+    "city": "Fort Lauderdale",
+    "state": "FL",
+    "onTimeRate": 84.9,
+    "avgDelayMin": 15,
+    "cancelRate": 1.3,
+    "bestDay": "Wednesday",
+    "worstDay": "Saturday",
+    "bestHour": 7,
+    "worstHour": 18,
+    "terminals": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "airlines": [
+      "JetBlue",
+      "Southwest",
+      "Delta",
+      "American"
+    ],
+    "website": "https://www.broward.org/airport",
+    "lastUpdated": "2026-04-22"
+  },
+  {
+    "code": "DTW",
+    "name": "Detroit Metropolitan Wayne County Airport",
+    "city": "Detroit",
+    "state": "MI",
+    "onTimeRate": 82.7,
+    "avgDelayMin": 18,
+    "cancelRate": 1.7,
+    "bestDay": "Tuesday",
+    "worstDay": "Friday",
+    "bestHour": 7,
+    "worstHour": 18,
+    "terminals": [
+      "North",
+      "South"
+    ],
+    "airlines": [
+      "Delta",
+      "American",
+      "Southwest",
+      "United"
+    ],
+    "website": "https://www.metroairport.com",
+    "lastUpdated": "2026-04-22"
+  },
+  {
+    "code": "PHL",
+    "name": "Philadelphia International Airport",
+    "city": "Philadelphia",
+    "state": "PA",
+    "onTimeRate": 73.6,
+    "avgDelayMin": 28,
+    "cancelRate": 2.1,
+    "bestDay": "Saturday",
+    "worstDay": "Monday",
+    "bestHour": 7,
+    "worstHour": 19,
+    "terminals": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ],
+    "airlines": [
+      "American",
+      "Southwest",
+      "Delta",
+      "Frontier"
+    ],
+    "website": "https://www.phl.org",
+    "lastUpdated": "2026-04-22"
+  },
+  {
+    "code": "LGA",
+    "name": "LaGuardia Airport",
+    "city": "New York",
+    "state": "NY",
+    "onTimeRate": 68.4,
+    "avgDelayMin": 36,
+    "cancelRate": 1.8,
+    "bestDay": "Saturday",
+    "worstDay": "Monday",
+    "bestHour": 7,
+    "worstHour": 20,
+    "terminals": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "airlines": [
+      "Delta",
+      "American",
+      "Southwest",
+      "United",
+      "JetBlue"
+    ],
+    "website": "https://www.laguardiaairport.com",
+    "lastUpdated": "2026-04-22"
+  },
+  {
+    "code": "BWI",
+    "name": "Baltimore/Washington International Airport",
+    "city": "Baltimore",
+    "state": "MD",
+    "onTimeRate": 83.2,
+    "avgDelayMin": 17,
+    "cancelRate": 1.4,
+    "bestDay": "Tuesday",
+    "worstDay": "Friday",
+    "bestHour": 6,
+    "worstHour": 18,
+    "terminals": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "airlines": [
+      "Southwest",
+      "Frontier",
+      "Delta",
+      "American"
+    ],
+    "website": "https://www.bwiairport.com",
+    "lastUpdated": "2026-04-22"
+  },
+  {
+    "code": "SLC",
+    "name": "Salt Lake City International Airport",
+    "city": "Salt Lake City",
+    "state": "UT",
+    "onTimeRate": 84.3,
+    "avgDelayMin": 16,
+    "cancelRate": 1.6,
+    "bestDay": "Wednesday",
+    "worstDay": "Sunday",
+    "bestHour": 7,
+    "worstHour": 17,
+    "terminals": [
+      "A",
+      "B"
+    ],
+    "airlines": [
+      "Delta",
+      "Southwest",
+      "United",
+      "American",
+      "Frontier"
+    ],
+    "website": "https://www.slcairport.com",
+    "lastUpdated": "2026-04-22"
+  },
+  {
+    "code": "IAD",
+    "name": "Washington Dulles International Airport",
+    "city": "Washington",
+    "state": "DC",
+    "onTimeRate": 78.1,
+    "avgDelayMin": 23,
+    "cancelRate": 1.7,
+    "bestDay": "Tuesday",
+    "worstDay": "Friday",
+    "bestHour": 7,
+    "worstHour": 18,
+    "terminals": [
+      "Main",
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "airlines": [
+      "United",
+      "Delta",
+      "American",
+      "Frontier"
+    ],
+    "website": "https://www.flydulles.com",
+    "lastUpdated": "2026-04-22"
+  },
+  {
+    "code": "DCA",
+    "name": "Ronald Reagan Washington National Airport",
+    "city": "Washington",
+    "state": "DC",
+    "onTimeRate": 76.5,
+    "avgDelayMin": 25,
+    "cancelRate": 1.5,
+    "bestDay": "Saturday",
+    "worstDay": "Monday",
+    "bestHour": 7,
+    "worstHour": 19,
+    "terminals": [
+      "A",
+      "B",
+      "C"
+    ],
+    "airlines": [
+      "American",
+      "Delta",
+      "Southwest",
+      "United"
+    ],
+    "website": "https://www.flyreagan.com",
+    "lastUpdated": "2026-04-22"
+  },
+  {
+    "code": "MDW",
+    "name": "Chicago Midway International Airport",
+    "city": "Chicago",
+    "state": "IL",
+    "onTimeRate": 80.3,
+    "avgDelayMin": 20,
+    "cancelRate": 1.9,
+    "bestDay": "Tuesday",
+    "worstDay": "Monday",
+    "bestHour": 6,
+    "worstHour": 18,
+    "terminals": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "airlines": [
+      "Southwest",
+      "Delta",
+      "American",
+      "Frontier"
+    ],
+    "website": "https://www.flychicago.com/midway",
+    "lastUpdated": "2026-04-22"
+  },
+  {
+    "code": "HNL",
+    "name": "Daniel K. Inouye International Airport",
+    "city": "Honolulu",
+    "state": "HI",
+    "onTimeRate": 86.8,
+    "avgDelayMin": 13,
+    "cancelRate": 0.9,
+    "bestDay": "Tuesday",
+    "worstDay": "Friday",
+    "bestHour": 7,
+    "worstHour": 16,
+    "terminals": [
+      "1",
+      "2",
+      "3",
+      "International"
+    ],
+    "airlines": [
+      "Hawaiian",
+      "Alaska",
+      "Delta",
+      "American",
+      "United"
+    ],
+    "website": "https://www.airports.hawaii.gov",
+    "lastUpdated": "2026-04-22"
+  },
+  {
+    "code": "SAN",
+    "name": "San Diego International Airport",
+    "city": "San Diego",
+    "state": "CA",
+    "onTimeRate": 83.9,
+    "avgDelayMin": 17,
+    "cancelRate": 1.3,
+    "bestDay": "Wednesday",
+    "worstDay": "Sunday",
+    "bestHour": 7,
+    "worstHour": 18,
+    "terminals": [
+      "1",
+      "2"
+    ],
+    "airlines": [
+      "Southwest",
+      "Alaska",
+      "American",
+      "Delta",
+      "United"
+    ],
+    "website": "https://www.san.org",
+    "lastUpdated": "2026-04-22"
+  },
+  {
+    "code": "TPA",
+    "name": "Tampa International Airport",
+    "city": "Tampa",
+    "state": "FL",
+    "onTimeRate": 85.4,
+    "avgDelayMin": 14,
+    "cancelRate": 1.2,
+    "bestDay": "Tuesday",
+    "worstDay": "Saturday",
+    "bestHour": 7,
+    "worstHour": 17,
+    "terminals": [
+      "E",
+      "F"
+    ],
+    "airlines": [
+      "Southwest",
+      "Frontier",
+      "Delta",
+      "American"
+    ],
+    "website": "https://www.tampaairport.com",
+    "lastUpdated": "2026-04-22"
+  },
+  {
+    "code": "PDX",
+    "name": "Portland International Airport",
+    "city": "Portland",
+    "state": "OR",
+    "onTimeRate": 79.7,
+    "avgDelayMin": 21,
+    "cancelRate": 1.5,
+    "bestDay": "Tuesday",
+    "worstDay": "Sunday",
+    "bestHour": 7,
+    "worstHour": 18,
+    "terminals": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "airlines": [
+      "Alaska",
+      "Southwest",
+      "Delta",
+      "United",
+      "American"
+    ],
+    "website": "https://www.flypdx.com",
+    "lastUpdated": "2026-04-22"
+  },
+  {
+    "code": "STL",
+    "name": "St. Louis Lambert International Airport",
+    "city": "St. Louis",
+    "state": "MO",
+    "onTimeRate": 84.6,
+    "avgDelayMin": 15,
+    "cancelRate": 1.4,
+    "bestDay": "Wednesday",
+    "worstDay": "Friday",
+    "bestHour": 7,
+    "worstHour": 17,
+    "terminals": [
+      "1",
+      "2"
+    ],
+    "airlines": [
+      "Southwest",
+      "American",
+      "Delta",
+      "United",
+      "Frontier"
+    ],
+    "website": "https://www.flystl.com",
+    "lastUpdated": "2026-04-22"
+  },
+  {
+    "code": "BNA",
+    "name": "Nashville International Airport",
+    "city": "Nashville",
+    "state": "TN",
+    "onTimeRate": 83.1,
+    "avgDelayMin": 17,
+    "cancelRate": 1.5,
+    "bestDay": "Tuesday",
+    "worstDay": "Friday",
+    "bestHour": 7,
+    "worstHour": 18,
+    "terminals": [
+      "C",
+      "D"
+    ],
+    "airlines": [
+      "Southwest",
+      "American",
+      "Delta",
+      "Frontier"
+    ],
+    "website": "https://www.flynashville.com",
+    "lastUpdated": "2026-04-22"
+  },
+  {
+    "code": "AUS",
+    "name": "Austin-Bergstrom International Airport",
+    "city": "Austin",
+    "state": "TX",
+    "onTimeRate": 81.5,
+    "avgDelayMin": 19,
+    "cancelRate": 1.6,
+    "bestDay": "Tuesday",
+    "worstDay": "Sunday",
+    "bestHour": 7,
+    "worstHour": 18,
+    "terminals": [
+      "Barbara Jordan",
+      "South Terminal"
+    ],
+    "airlines": [
+      "Southwest",
+      "American",
+      "Delta",
+      "United"
+    ],
+    "website": "https://www.austintexas.gov/airport",
+    "lastUpdated": "2026-04-22"
+  },
+  {
+    "code": "RDU",
+    "name": "Raleigh-Durham International Airport",
+    "city": "Raleigh",
+    "state": "NC",
+    "onTimeRate": 82.8,
+    "avgDelayMin": 18,
+    "cancelRate": 1.5,
+    "bestDay": "Wednesday",
+    "worstDay": "Friday",
+    "bestHour": 7,
+    "worstHour": 17,
+    "terminals": [
+      "1",
+      "2"
+    ],
+    "airlines": [
+      "American",
+      "Delta",
+      "Southwest",
+      "United"
+    ],
+    "website": "https://www.rdu.com",
+    "lastUpdated": "2026-04-22"
+  },
+  {
+    "code": "MCI",
+    "name": "Kansas City International Airport",
+    "city": "Kansas City",
+    "state": "MO",
+    "onTimeRate": 85.7,
+    "avgDelayMin": 14,
+    "cancelRate": 1.3,
+    "bestDay": "Tuesday",
+    "worstDay": "Sunday",
+    "bestHour": 7,
+    "worstHour": 17,
+    "terminals": [
+      "A",
+      "B",
+      "C"
+    ],
+    "airlines": [
+      "Southwest",
+      "Delta",
+      "American",
+      "United",
+      "Frontier"
+    ],
+    "website": "https://www.flykci.com",
+    "lastUpdated": "2026-04-22"
+  },
+  {
+    "code": "SMF",
+    "name": "Sacramento International Airport",
+    "city": "Sacramento",
+    "state": "CA",
+    "onTimeRate": 84.2,
+    "avgDelayMin": 16,
+    "cancelRate": 1.3,
+    "bestDay": "Tuesday",
+    "worstDay": "Sunday",
+    "bestHour": 7,
+    "worstHour": 17,
+    "terminals": [
+      "A",
+      "B"
+    ],
+    "airlines": [
+      "Southwest",
+      "Alaska",
+      "Delta",
+      "American",
+      "United"
+    ],
+    "website": "https://sacramento.aero",
+    "lastUpdated": "2026-04-22"
+  },
+  {
+    "code": "SJC",
+    "name": "Norman Y. Mineta San Jose International Airport",
+    "city": "San Jose",
+    "state": "CA",
+    "onTimeRate": 82.4,
+    "avgDelayMin": 18,
+    "cancelRate": 1.4,
+    "bestDay": "Tuesday",
+    "worstDay": "Friday",
+    "bestHour": 7,
+    "worstHour": 18,
+    "terminals": [
+      "A",
+      "B"
+    ],
+    "airlines": [
+      "Southwest",
+      "Alaska",
+      "Delta",
+      "American",
+      "United"
+    ],
+    "website": "https://www.flysanjose.com",
+    "lastUpdated": "2026-04-22"
+  },
+  {
+    "code": "OAK",
+    "name": "Oakland International Airport",
+    "city": "Oakland",
+    "state": "CA",
+    "onTimeRate": 83.6,
+    "avgDelayMin": 17,
+    "cancelRate": 1.3,
+    "bestDay": "Wednesday",
+    "worstDay": "Sunday",
+    "bestHour": 7,
+    "worstHour": 18,
+    "terminals": [
+      "1",
+      "2"
+    ],
+    "airlines": [
+      "Southwest",
+      "Alaska",
+      "Delta",
+      "Frontier"
+    ],
+    "website": "https://www.oaklandairport.com",
+    "lastUpdated": "2026-04-22"
+  },
+  {
+    "code": "SNA",
+    "name": "John Wayne Airport",
+    "city": "Santa Ana",
+    "state": "CA",
+    "onTimeRate": 85.9,
+    "avgDelayMin": 14,
+    "cancelRate": 1.1,
+    "bestDay": "Tuesday",
+    "worstDay": "Friday",
+    "bestHour": 8,
+    "worstHour": 17,
+    "terminals": [
+      "A",
+      "B",
+      "C"
+    ],
+    "airlines": [
+      "Southwest",
+      "Alaska",
+      "Delta",
+      "American",
+      "United"
+    ],
+    "website": "https://www.ocair.com",
+    "lastUpdated": "2026-04-22"
+  },
+  {
+    "code": "MKE",
+    "name": "Milwaukee Mitchell International Airport",
+    "city": "Milwaukee",
+    "state": "WI",
+    "onTimeRate": 84.4,
+    "avgDelayMin": 16,
+    "cancelRate": 1.5,
+    "bestDay": "Tuesday",
+    "worstDay": "Friday",
+    "bestHour": 7,
+    "worstHour": 17,
+    "terminals": [
+      "C",
+      "D"
+    ],
+    "airlines": [
+      "Southwest",
+      "Frontier",
+      "Delta",
+      "American",
+      "United"
+    ],
+    "website": "https://www.mitchellairport.com",
+    "lastUpdated": "2026-04-22"
+  },
+  {
+    "code": "PIT",
+    "name": "Pittsburgh International Airport",
+    "city": "Pittsburgh",
+    "state": "PA",
+    "onTimeRate": 83.7,
+    "avgDelayMin": 17,
+    "cancelRate": 1.6,
+    "bestDay": "Tuesday",
+    "worstDay": "Friday",
+    "bestHour": 7,
+    "worstHour": 17,
+    "terminals": [
+      "Airside",
+      "Landside"
+    ],
+    "airlines": [
+      "Southwest",
+      "American",
+      "Delta",
+      "United",
+      "Frontier"
+    ],
+    "website": "https://flypittsburgh.com",
+    "lastUpdated": "2026-04-22"
+  },
+  {
+    "code": "CMH",
+    "name": "John Glenn Columbus International Airport",
+    "city": "Columbus",
+    "state": "OH",
+    "onTimeRate": 85.2,
+    "avgDelayMin": 14,
+    "cancelRate": 1.3,
+    "bestDay": "Wednesday",
+    "worstDay": "Sunday",
+    "bestHour": 7,
+    "worstHour": 17,
+    "terminals": [
+      "A",
+      "B"
+    ],
+    "airlines": [
+      "Southwest",
+      "Delta",
+      "American",
+      "United",
+      "Frontier"
+    ],
+    "website": "https://www.flycolumbus.com",
+    "lastUpdated": "2026-04-22"
+  },
+  {
+    "code": "RSW",
+    "name": "Southwest Florida International Airport",
+    "city": "Fort Myers",
+    "state": "FL",
+    "onTimeRate": 86.1,
+    "avgDelayMin": 13,
+    "cancelRate": 1.1,
+    "bestDay": "Tuesday",
+    "worstDay": "Saturday",
+    "bestHour": 7,
+    "worstHour": 16,
+    "terminals": [
+      "Concourse A",
+      "Concourse B",
+      "Concourse C"
+    ],
+    "airlines": [
+      "Southwest",
+      "Frontier",
+      "American",
+      "Delta"
+    ],
+    "website": "https://www.flylcpa.com",
+    "lastUpdated": "2026-04-22"
+  },
+  {
+    "code": "CLE",
+    "name": "Cleveland Hopkins International Airport",
+    "city": "Cleveland",
+    "state": "OH",
+    "onTimeRate": 81.9,
+    "avgDelayMin": 19,
+    "cancelRate": 1.8,
+    "bestDay": "Tuesday",
+    "worstDay": "Monday",
+    "bestHour": 7,
+    "worstHour": 17,
+    "terminals": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "airlines": [
+      "Southwest",
+      "Frontier",
+      "Delta",
+      "American",
+      "United"
+    ],
+    "website": "https://www.clevelandairport.com",
+    "lastUpdated": "2026-04-22"
+  },
+  {
+    "code": "IND",
+    "name": "Indianapolis International Airport",
+    "city": "Indianapolis",
+    "state": "IN",
+    "onTimeRate": 85.3,
+    "avgDelayMin": 14,
+    "cancelRate": 1.2,
+    "bestDay": "Tuesday",
+    "worstDay": "Friday",
+    "bestHour": 7,
+    "worstHour": 17,
+    "terminals": [
+      "A",
+      "B"
+    ],
+    "airlines": [
+      "Southwest",
+      "Delta",
+      "American",
+      "United",
+      "Frontier"
+    ],
+    "website": "https://www.indianapolisairport.com",
+    "lastUpdated": "2026-04-22"
+  },
+  {
+    "code": "DAL",
+    "name": "Dallas Love Field Airport",
+    "city": "Dallas",
+    "state": "TX",
+    "onTimeRate": 87.2,
+    "avgDelayMin": 12,
+    "cancelRate": 1.1,
+    "bestDay": "Tuesday",
+    "worstDay": "Friday",
+    "bestHour": 7,
+    "worstHour": 17,
+    "terminals": [
+      "A",
+      "B"
+    ],
+    "airlines": [
+      "Southwest",
+      "Delta",
+      "American",
+      "United"
+    ],
+    "website": "https://www.dallas-lovefield.com",
+    "lastUpdated": "2026-04-22"
+  },
+  {
+    "code": "HOU",
+    "name": "William P. Hobby Airport",
+    "city": "Houston",
+    "state": "TX",
+    "onTimeRate": 85.8,
+    "avgDelayMin": 13,
+    "cancelRate": 1.2,
+    "bestDay": "Wednesday",
+    "worstDay": "Friday",
+    "bestHour": 7,
+    "worstHour": 17,
+    "terminals": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "airlines": [
+      "Southwest",
+      "Delta",
+      "American",
+      "United"
+    ],
+    "website": "https://www.fly2houston.com/hobby",
+    "lastUpdated": "2026-04-22"
+  },
+  {
+    "code": "BUR",
+    "name": "Hollywood Burbank Airport",
+    "city": "Burbank",
+    "state": "CA",
+    "onTimeRate": 86.4,
+    "avgDelayMin": 13,
+    "cancelRate": 1.0,
+    "bestDay": "Tuesday",
+    "worstDay": "Sunday",
+    "bestHour": 7,
+    "worstHour": 17,
+    "terminals": [
+      "A",
+      "B"
+    ],
+    "airlines": [
+      "Southwest",
+      "Alaska",
+      "Delta",
+      "American",
+      "United"
+    ],
+    "website": "https://www.hollywoodburbankairport.com",
+    "lastUpdated": "2026-04-22"
+  },
+  {
+    "code": "ONT",
+    "name": "Ontario International Airport",
+    "city": "Ontario",
+    "state": "CA",
+    "onTimeRate": 85.6,
+    "avgDelayMin": 14,
+    "cancelRate": 1.1,
+    "bestDay": "Tuesday",
+    "worstDay": "Sunday",
+    "bestHour": 7,
+    "worstHour": 17,
+    "terminals": [
+      "2",
+      "4"
+    ],
+    "airlines": [
+      "Southwest",
+      "Alaska",
+      "Delta",
+      "American"
+    ],
+    "website": "https://www.flyontario.com",
+    "lastUpdated": "2026-04-22"
+  },
+  {
+    "code": "ABQ",
+    "name": "Albuquerque International Sunport",
+    "city": "Albuquerque",
+    "state": "NM",
+    "onTimeRate": 84.8,
+    "avgDelayMin": 15,
+    "cancelRate": 1.3,
+    "bestDay": "Tuesday",
+    "worstDay": "Sunday",
+    "bestHour": 7,
+    "worstHour": 17,
+    "terminals": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "airlines": [
+      "Southwest",
+      "American",
+      "Delta",
+      "United",
+      "Frontier"
+    ],
+    "website": "https://www.abqsunport.com",
+    "lastUpdated": "2026-04-22"
+  }
 ]
